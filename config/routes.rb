@@ -1,7 +1,4 @@
 Rails.application.routes.draw do
-  # resources :riders
+  resources :riders
 
-  namespace :api, defaults: { format: :json } do
-    resources :riders
-  end
 end
