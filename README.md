@@ -26,6 +26,6 @@ Then, access the app in your browser at http://localhost:3000/
 
 
  - In production:
-Hereafter a few links to the production back end
+Hereafter, links to the production back end
 * [Riders](https://boulder-bike-tour-backend.herokuapp.com/riders)
 * [Slogan](https://boulder-bike-tour-backend.herokuapp.com/slogan_contests)
