@@ -1,24 +1,31 @@
-# README
+# This repository is the back of the Boulder Bike Tour app: [Boulder Bike Tour](https://co-boulder-bike-tour.herokuapp.com/)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Description :
+Once every decade, an exciting, prestigious, and inspiring bike race takes place in Colorado at the foot of the Rocky Mountains. It's the Boulder Bike Tour, and it's coming up next year!
 
-Things you may want to cover:
 
-* Ruby version
+### Developpers:
+- [Mathieu](https://github.com/MathieuParadis)
 
-* System dependencies
 
-* Configuration
+## Boulder Bike Tour Frontend:
+* [Git repository](https://github.com/MathieuParadis/boulder-bike-tour)
+* [In production](https://co-boulder-bike-tour.herokuapp.com/)
 
-* Database creation
 
-* Database initialization
+## How to use it:
+- In development, clone the repository on your machine, and run:
+```
+bundle install
+rails db:create
+rails db:migrate
+rails db:seed
+rails server
+```
+Then, access the app in your browser at http://localhost:3000/
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+ - In production:
+Hereafter a few links to the production back end
+* [Riders](https://boulder-bike-tour-backend.herokuapp.com/riders)
+* [Slogan](https://boulder-bike-tour-backend.herokuapp.com/slogan_contests)
