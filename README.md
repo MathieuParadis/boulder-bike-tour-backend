@@ -14,7 +14,7 @@ Once every decade, an exciting, prestigious, and inspiring bike race takes place
 
 
 ## How to use it:
-- In development, clone the repository on your machine, and run:
+In development, clone the repository on your machine, and run:
 ```
 bundle install
 rails db:create
@@ -25,7 +25,9 @@ rails server
 Then, access the app in your browser at http://localhost:3000/
 
 
- - In production:
+
+In production:
+
 Hereafter, links to the production back end
 * [Riders](https://boulder-bike-tour-backend.herokuapp.com/riders)
 * [Slogan](https://boulder-bike-tour-backend.herokuapp.com/slogan_contests)
