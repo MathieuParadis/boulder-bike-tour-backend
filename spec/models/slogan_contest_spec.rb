@@ -29,6 +29,11 @@ RSpec.describe SloganContest, type: :model do
     expect(slogan_contest).to_not be_valid
   end
 
+  it "is not valid with invalid email" do
+    slogan_contest = FactoryBot.build(:slogan_contest, email: "jocelin.com")
+    expect(slogan_contest).to_not be_valid
+  end
+
   it "is not valid without slogan" do
     slogan_contest = FactoryBot.build(:slogan_contest, slogan: nil)
     expect(slogan_contest).to_not be_valid
